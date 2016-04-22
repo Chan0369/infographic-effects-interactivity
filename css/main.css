@@ -15,3 +15,38 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+nav {
+  text-align: center;
+  overflow: hidden;
+  background-color: #603813;
+  padding: 1em;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0.25em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #D57927;
+  padding: 1em;
+  display: block;
+  border-radius: 1em;
+}
+
+nav a:hover {
+  background-color: #9C2C27;
+}
