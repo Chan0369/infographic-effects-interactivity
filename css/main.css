@@ -19,7 +19,7 @@ html {
 nav {
   text-align: center;
   overflow: hidden;
-  background-color: #603813;
+  background-color: #C2D7C2;
   padding: 1em;
 }
 
@@ -41,12 +41,12 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
-  background-color: #D57927;
+  background-color: #754141;
   padding: 1em;
   display: block;
   border-radius: 1em;
 }
 
 nav a:hover {
-  background-color: #9C2C27;
+  background-color: #F3A395;
 }
