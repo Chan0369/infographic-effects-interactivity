@@ -79,25 +79,25 @@ nav a:hover {
 
 .cupid-left {
   transition: all 100ms ease-in;
-    transform-origin: 113px 155px;
+  transform-origin: 113px 155px;
 }
 
 .js-wrapper-animate {
-  animation: jiggle-left-right 150ms linear;
+  animation: sway 5s infinite;
 }
 
-@keyframes jiggle-left-right {
+@keyframes sway {
   0% {
     transform: rotate(0);
   }
   25% {
-    transform: rotate(30deg);
+    transform: rotate(20deg);
   }
   50% {
     transform: rotate(-15deg);
   }
   75% {
-    transform: rotate(30deg);
+    transform: rotate(20deg);
   }
   100% {
     transform: rotate(0);
@@ -116,4 +116,48 @@ nav a:hover {
 
 .is-clicked {
   fill: #F3A395;
+}
+
+.mint-heart-left {
+  transform-origin: 73px 58px;
+}
+
+.mint-heart-right {
+  transform-origin: 658px 58px;
+}
+
+.is-clicked2 {
+  animation: spin 1s ease;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+.family {
+  transform-origin: center;
+}
+
+.scale:hover {
+  animation: expand 3s ease;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(5, 5;);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav a {
+    display: inline-block;
+  }
 }
