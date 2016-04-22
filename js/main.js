@@ -1,9 +1,11 @@
-var $info = $('.info1');
+$('.nav').localScroll();
 
-$.info1.waypoint(function (direction) {
+var $cupids = $('.cupid-right, .cupid-left');
+
+$cupids.waypoint(function (direction) {
   if (direction == 'down') {
-  $info1.addClass('js-wrapper-animate');
+  $cupids.addClass('js-wrapper-animate');
   } else {
-  $info1.removeClass('js-wrapper-animate');
+  $cupids.removeClass('js-wrapper-animate');
   }
-}, { offset:'10%' });
+}, { offset:'50%' });

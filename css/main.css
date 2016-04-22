@@ -68,7 +68,12 @@ nav a:hover {
   background-color: #F3A395;
 }
 
-.info1 {
+.cupid-right {
+  opacity: 0;
+  transition: all 100ms ease-in;
+}
+
+.cupid-left {
   opacity: 0;
   transition: all 100ms ease-in;
 }
@@ -83,10 +88,10 @@ nav a:hover {
     transform: rotate(0);
   }
   33% {
-    transform: rotate(10deg);
+    transform: rotate(0deg);
   }
   66% {
-    transform: rotate(-10deg);
+    transform: rotate(0deg);
   }
   100% {
     transform: rotate(0);
