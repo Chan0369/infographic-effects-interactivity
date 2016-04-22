@@ -9,3 +9,11 @@ $cupids.waypoint(function (direction) {
   $cupids.removeClass('js-wrapper-animate');
   }
 }, { offset:'50%' });
+
+$('.right-heart-info').on('click', function (e) {
+  $(this).toggleClass('is-clicked');
+});
+
+$('.left-heart-info').on('click', function (e) {
+  $(this).toggleClass('is-clicked');
+});

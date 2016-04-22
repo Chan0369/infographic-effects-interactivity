@@ -68,32 +68,52 @@ nav a:hover {
   background-color: #F3A395;
 }
 
+.background {
+  position: relative;
+}
+
 .cupid-right {
-  opacity: 0;
   transition: all 100ms ease-in;
+  transform-origin: 675px 155px;
 }
 
 .cupid-left {
-  opacity: 0;
   transition: all 100ms ease-in;
+    transform-origin: 113px 155px;
 }
 
 .js-wrapper-animate {
-  opacity: 1;
-  animation: wrapper-jiggle 150ms linear;
+  animation: jiggle-left-right 150ms linear;
 }
 
-@keyframes wrapper-jiggle {
+@keyframes jiggle-left-right {
   0% {
     transform: rotate(0);
   }
-  33% {
-    transform: rotate(0deg);
+  25% {
+    transform: rotate(30deg);
   }
-  66% {
-    transform: rotate(0deg);
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(30deg);
   }
   100% {
     transform: rotate(0);
   }
+}
+
+.right-heart-info {
+  fill: #fff;
+  transition: all .5s linear;
+}
+
+.left-heart-info {
+  fill: #fff;
+  transition: all .5s linear;
+}
+
+.is-clicked {
+  fill: #F3A395;
 }
