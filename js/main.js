@@ -1,4 +1,6 @@
 var $cupids = $('.cupid-right, .cupid-left');
+var $man = $('.man');
+var $manSvg = $('#valentines-day-info2');
 
 $('.nav').localScroll();
 
@@ -117,3 +119,31 @@ $('.flower').hover(function (e) {
 $('.flower').on('animationend', function (e) {
   $(this).removeClass('scale');
 });
+
+$('.title1').on('click', function () {
+  $('.info1').toggleClass('show');
+});
+
+$('.title2').on('click', function () {
+  $('.info2').toggleClass('show');
+});
+
+$('.title3').on('click', function () {
+  $('.info3').toggleClass('show');
+});
+
+$('.title4').on('click', function () {
+  $('.info4').toggleClass('show');
+});
+
+//$('.green-background').on('click', function () {
+//  $('.man').toggleClass('slide');
+//});
+
+$manSvg.waypoint(function (direction) {
+  if (direction == 'down') {
+  $man.addClass('slide');
+  } else {
+  $man.removeClass('slide');
+  }
+}, { offset:'50%' });

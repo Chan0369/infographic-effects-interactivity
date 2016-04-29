@@ -407,6 +407,46 @@ nav a:hover {
   }
 }
 
+.info1 {
+  opacity: 0;
+}
+
+.info2 {
+  opacity: 0;
+}
+
+.info3 {
+  opacity: 0;
+}
+
+.info4 {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.man {
+  transition: all 0.5s ease;
+  transform: translate(-200%, 0);
+}
+
+.slide {
+  transform: translate(0, 0);
+}
+
+@keyframes slide {
+
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-5px, 0);
+  }
+}
+
 @media only screen and (min-width: 28em) {
 
   nav li {
