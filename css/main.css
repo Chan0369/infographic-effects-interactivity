@@ -6,7 +6,6 @@
 
 html {
   box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -73,41 +72,69 @@ nav a:hover {
 }
 
 .cupid-right {
+  -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
+  -webkit-transform-origin: 675px 155px;
   transform-origin: 675px 155px;
 }
 
 .cupid-left {
+  -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
+  -webkit-transform-origin: 113px 155px;
   transform-origin: 113px 155px;
 }
 
 .js-wrapper-animate {
+  -webkit-animation: sway 5s infinite;
   animation: sway 5s infinite;
+}
+
+@-webkit-keyframes sway {
+
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  50% {
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
 }
 
 @keyframes sway {
 
   0% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 
   50% {
+    -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
   }
 
   100% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 }
 
 .right-heart-info {
   fill: #fff;
+  -webkit-transition: all .5s linear;
   transition: all .5s linear;
 }
 
 .left-heart-info {
   fill: #fff;
+  -webkit-transition: all .5s linear;
   transition: all .5s linear;
 }
 
@@ -116,115 +143,212 @@ nav a:hover {
 }
 
 .mint-heart-left {
+  -webkit-transform-origin: 73px 58px;
   transform-origin: 73px 58px;
 }
 
 .mint-heart-right {
+  -webkit-transform-origin: 658px 58px;
   transform-origin: 658px 58px;
 }
 
 .is-clicked2 {
+  -webkit-animation: spin 1s ease;
   animation: spin 1s ease;
+}
+
+@-webkit-keyframes spin {
+
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
 
   0% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
 .couple {
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transform-origin: center center;
   transform-origin: center center;
 }
 
 .couple:hover {
+  -webkit-animation: expand 3s ease forwards;
   animation: expand 3s ease forwards;
 }
 
 .family {
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transform-origin: center center;
   transform-origin: center center;
 }
 
 .family:hover {
-  animation: expand 3s ease forwards;
+  -webkit-animation: expand 3s ease forwards;
+          animation: expand 3s ease forwards;
 }
 
 .pet {
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transform-origin: center center;
   transform-origin: center center;
 }
 
 .pet:hover {
+  -webkit-animation: expand 3s ease forwards;
   animation: expand 3s ease forwards;
+}
+
+@-webkit-keyframes expand {
+
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @keyframes expand {
 
   0% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 
   50% {
+    -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
 
   100% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
 
 .chocolate-bar {
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transform-origin: center center;
   transform-origin: center center;
 }
 
 .football-team {
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transform-origin: center center;
   transform-origin: center center;
 }
 
 .scale {
+  -webkit-animation: scale 3s linear;
   animation: scale 3s linear;
+}
+
+@-webkit-keyframes scale {
+
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.125);
+    transform: scale(1.125);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @keyframes scale {
 
   0% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 
   50% {
+    -webkit-transform: scale(1.125);
     transform: scale(1.125);
   }
 
   100% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
 
 .small-heart {
+  -webkit-transform-origin: center center;
   transform-origin: center center;
+  -webkit-animation: pulse 1s linear infinite;
   animation: pulse 1s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @keyframes pulse {
 
   0% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 
   50% {
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
 
   100% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
