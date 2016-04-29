@@ -180,6 +180,35 @@ nav a:hover {
   }
 }
 
+.chocolate-bar {
+  transform: scale(1);
+  transform-origin: center center;
+}
+
+.football-team {
+  transform: scale(1);
+  transform-origin: center center;
+}
+
+.scale {
+  animation: scale 3s linear;
+}
+
+@keyframes scale {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.125);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .small-heart {
   transform-origin: center center;
   animation: pulse 1s linear infinite;

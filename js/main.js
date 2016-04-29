@@ -37,3 +37,19 @@ $('.mint-heart-right').on('animationend', function (e) {
 // $('.family').hover( function (e) {
 //   $(this).addClass('scale');
 // });
+
+$('.chocolate-bar').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.chocolate-bar').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.football-team').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.football-team').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
