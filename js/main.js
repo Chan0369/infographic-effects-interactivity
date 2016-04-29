@@ -4,9 +4,9 @@ $('.nav').localScroll();
 
 $cupids.waypoint(function (direction) {
   if (direction == 'down') {
-  $cupids.addClass('js-wrapper-animate');
+    $cupids.addClass('js-wrapper-animate');
   } else {
-  $cupids.removeClass('js-wrapper-animate');
+    $cupids.removeClass('js-wrapper-animate');
   }
 }, { offset:'50%' });
 
@@ -22,7 +22,7 @@ $('.mint-heart-left').on('click', function (e) {
   $(this).addClass('is-clicked2');
 });
 
-$('mint-heart-left').on('animationend', function (e) {
+$('.mint-heart-left').on('animationend', function (e) {
   $(this).removeClass('is-clicked2');
 });
 
@@ -30,10 +30,10 @@ $('.mint-heart-right').on('click', function (e) {
   $(this).addClass('is-clicked2');
 });
 
-$('mint-heart-right').on('animationend', function (e) {
+$('.mint-heart-right').on('animationend', function (e) {
   $(this).removeClass('is-clicked2');
 });
-
-$('family').hover( function (e) {
-  $(this).addClass('scale');
-});
+//
+// $('.family').hover( function (e) {
+//   $(this).addClass('scale');
+// });
