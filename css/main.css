@@ -135,7 +135,6 @@ nav a:hover {
 .left-heart-info {
   fill: #fff;
   -webkit-transition: all .5s linear;
-  transition: all .5s linear;
 }
 
 .is-clicked {
@@ -204,7 +203,7 @@ nav a:hover {
 
 .family:hover {
   -webkit-animation: expand 3s ease forwards;
-          animation: expand 3s ease forwards;
+  animation: expand 3s ease forwards;
 }
 
 .pet {
