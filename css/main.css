@@ -47,9 +47,8 @@ nav ol {
 }
 
 nav li {
-  display: inline-block;
-  float: left;
-  width: 33.33%;
+  display: block;
+  width: 100%;
   margin: 0;
   padding: 0.25em;
 }
@@ -410,7 +409,17 @@ nav a:hover {
 
 @media only screen and (min-width: 28em) {
 
-  nav a {
+  nav li {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+
+  nav li {
     display: inline-block;
+    width: 33.33%;
+    float:left;
   }
 }
