@@ -53,3 +53,67 @@ $('.football-team').hover(function (e) {
 $('.football-team').on('animationend', function (e) {
   $(this).removeClass('scale');
 });
+
+$('.flim').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.flim').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.buffet-voucher').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.buffet-voucher').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.perfume').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.perfume').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.underwear').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.underwear').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.cd').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.cd').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.toy').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.toy').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.jewellery').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.jewellery').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});
+
+$('.flower').hover(function (e) {
+  $(this).addClass('scale');
+});
+
+$('.flower').on('animationend', function (e) {
+  $(this).removeClass('scale');
+});

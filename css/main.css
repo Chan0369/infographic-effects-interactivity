@@ -268,9 +268,65 @@ nav a:hover {
   transform-origin: center center;
 }
 
+.film {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.buffet-voucher {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.perfume {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.underwear {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.cd {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.toy {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.jewellery {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.flower {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
 .scale {
-  -webkit-animation: scale 3s linear;
-  animation: scale 3s linear;
+  -webkit-animation: scale 600ms linear;
+  animation: scale 600ms linear;
 }
 
 @-webkit-keyframes scale {
@@ -281,8 +337,8 @@ nav a:hover {
   }
 
   50% {
-    -webkit-transform: scale(1.125);
-    transform: scale(1.125);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   100% {
@@ -299,8 +355,8 @@ nav a:hover {
   }
 
   50% {
-    -webkit-transform: scale(1.125);
-    transform: scale(1.125);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   100% {
