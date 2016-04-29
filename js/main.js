@@ -8,7 +8,7 @@ $cupids.waypoint(function (direction) {
   } else {
     $cupids.removeClass('js-wrapper-animate');
   }
-}, { offset:'50%' });
+}, {offset: '50%'});
 
 $('.right-heart-info').on('click', function (e) {
   $(this).toggleClass('is-clicked');
