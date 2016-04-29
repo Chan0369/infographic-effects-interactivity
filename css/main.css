@@ -131,7 +131,7 @@ nav a:hover {
 
 .couple {
   transform: scale(1);
-  transform-origin: 168, 58;
+  transform-origin: center center;
 }
 
 .couple:hover {
@@ -140,7 +140,7 @@ nav a:hover {
 
 .family {
   transform: scale(1);
-  transform-origin: 340, 58;
+  transform-origin: center center;
 }
 
 .family:hover {
@@ -149,7 +149,7 @@ nav a:hover {
 
 .pet {
   transform: scale(1);
-  transform-origin: 494, 58;
+  transform-origin: center center;
 }
 
 .pet:hover {
@@ -185,7 +185,7 @@ nav a:hover {
   }
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 28em) {
 
   nav a {
     display: inline-block;
